@@ -1,0 +1,38 @@
+body {
+  background: url(img/pencil.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#Menu > ul > li > a,
+div > ul > li > a {
+  color: #84579b;
+}
+
+#Menu > ul > li {
+  gap: 4em;
+}
+
+#Menu {
+  justify-content: center;
+}
+
+h2,
+h1,
+.footer {
+  text-align: center;
+  color: #84579b;
+}
+
+h1 > a,
+h2 > a,
+li > a {
+  color: #84579b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c5598f;
+}
