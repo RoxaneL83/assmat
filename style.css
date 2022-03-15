@@ -1,9 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: url(img/pencil.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #Menu > ul > li > a,
@@ -21,18 +26,46 @@ div > ul > li > a {
 
 h2,
 h1,
-.footer {
+.footer,
+h3 {
   text-align: center;
   color: #84579b;
 }
 
 h1 > a,
 h2 > a,
-li > a {
+li > a,
+p > a,
+.card-footer > .btn a {
   color: #84579b;
   text-decoration: none;
 }
 
 a:hover {
   color: #c5598f;
+}
+.home > p {
+  text-align: justify;
+}
+
+footer,
+.container {
+  padding-top: 50px;
+}
+
+h3 {
+  color: #af803f;
+  margin-bottom: 20px;
+}
+
+.carousel-inner {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+h5 {
+  color: #a7d6dc;
+  background-color: #84579b;
+  border-radius: 15px;
 }
