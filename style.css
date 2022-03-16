@@ -36,7 +36,7 @@ h1 > a,
 h2 > a,
 li > a,
 p > a,
-.card-footer > .btn a {
+.card-footer > a {
   color: #84579b;
   text-decoration: none;
 }
@@ -44,12 +44,14 @@ p > a,
 a:hover {
   color: #c5598f;
 }
-.home > p {
+.home > p,
+.container > p {
   text-align: justify;
 }
 
 footer,
-.container {
+.container,
+.event {
   padding-top: 50px;
 }
 
@@ -64,8 +66,49 @@ h3 {
   margin: auto;
 }
 
-h5 {
+h5,
+.accordion-item {
   color: #a7d6dc;
   background-color: #84579b;
   border-radius: 15px;
+}
+
+.accordion-body {
+  display: flex;
+  justify-content: center;
+  background-color: #e8f3f5;
+  gap: 3em;
+  height: 150px;
+}
+
+.text_center {
+  position: absolute;
+  color: #e8f3f5;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.accordion-body > div > img {
+  height: 120px;
+}
+
+@media all and (max-width: 1024px) {
+  .carousel-inner {
+    width: 100%;
+    padding: 20px;
+  }
+  .col {
+    width: 50%;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .carousel-inner {
+    width: 100%;
+    padding: 20px;
+  }
+  .col {
+    width: 100%;
+  }
 }
